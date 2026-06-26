@@ -1,12 +1,12 @@
 Welcome to Dada Vibing
 
-The dada family is moving into their new home.
+The Dada family is moving in.
 
-on 0 Attogram Way.
+to 0 Attogram Way.
 
 much diff then old house.
 
-on 0 Cave Way.
+from 0 Cave Way.
 
 Lets vibe!
 
