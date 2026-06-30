@@ -10,8 +10,8 @@ def slugify(text):
     return text[:50]
 
 def process_data():
-    issue_files = glob.glob("data/raw/issues_*.json")
-    comment_files = glob.glob("data/raw/comments_*.json")
+    issue_files = sorted(glob.glob("data/raw/issues_*.json"))
+    comment_files = sorted(glob.glob("data/raw/comments_*.json"))
 
     all_issues = []
     for f_path in issue_files:
@@ -31,39 +31,50 @@ def process_data():
             comments_by_issue[issue_url] = []
         comments_by_issue[issue_url].append(comment)
 
+    toc_lines = ["# Index of Issues\n\n"]
+
+    # Sort issues by number for consistent TOC and processing
+    all_issues.sort(key=lambda x: x['number'])
+
     for issue in all_issues:
         number = issue['number']
         title = issue['title']
         slug = slugify(title)
         dir_name = f"{number}-{slug}"
         dir_path = os.path.join("issues", dir_name)
-        os.makedirs(dir_path, exist_ok=True)
 
-        # README.md (Issue Body)
-        readme_content = f"# #{number} {title}\n\n"
-        readme_content += f"**State:** {issue['state']}\n"
-        readme_content += f"**Created at:** {issue['created_at']}\n"
-        readme_content += f"**User:** {issue['user']['login']}\n\n"
-        readme_content += issue['body'] or ""
+        # Remove old directory structure if it exists to clean up README.md/comments.md
+        if os.path.exists(dir_path):
+            for f in os.listdir(dir_path):
+                os.remove(os.path.join(dir_path, f))
+        else:
+            os.makedirs(dir_path, exist_ok=True)
 
-        with open(os.path.join(dir_path, "README.md"), "w") as f:
-            f.write(readme_content)
+        filename = f"{slug}.md"
+        filepath = os.path.join(dir_path, filename)
 
-        # comments.md
+        # Lossless content reconstruction: No headers, no metadata.
+        content = issue['body'] or ""
+
         issue_comments = comments_by_issue.get(issue['url'], [])
         issue_comments.sort(key=lambda x: x['created_at'])
 
         if issue_comments:
-            comments_content = f"# Comments for #{number} {title}\n\n"
-            for comment in issue_comments:
-                comments_content += f"## Comment by {comment['user']['login']} at {comment['created_at']}\n\n"
-                comments_content += comment['body'] or ""
-                comments_content += "\n\n---\n\n"
+            content += "\n\n---\n\n"
+            for i, comment in enumerate(issue_comments):
+                content += comment['body'] or ""
+                if i < len(issue_comments) - 1:
+                    content += "\n\n---\n\n"
 
-            with open(os.path.join(dir_path, "comments.md"), "w") as f:
-                f.write(comments_content)
+        with open(filepath, "w") as f:
+            f.write(content)
 
-    print(f"Reconstructed {len(all_issues)} issues using {len(issue_files)} issue files and {len(comment_files)} comment files.")
+        toc_lines.append(f"- [#{number} {title}](issues/{dir_name}/{filename})\n")
+
+    with open("ISSUES.md", "w") as f:
+        f.writelines(toc_lines)
+
+    print(f"Reconstructed {len(all_issues)} issues into lossless format. Updated ISSUES.md.")
 
 if __name__ == "__main__":
     process_data()
