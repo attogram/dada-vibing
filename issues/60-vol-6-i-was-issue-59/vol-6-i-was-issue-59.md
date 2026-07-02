@@ -1,3 +1,12 @@
+---
+title: "Vol. 6 — "I Was Issue #59""
+number: 60
+author: attogram
+created_at: 2026-06-26T17:10:59Z
+updated_at: 2026-06-26T17:10:59Z
+labels: []
+---
+
 GLM puppy
 
 ---

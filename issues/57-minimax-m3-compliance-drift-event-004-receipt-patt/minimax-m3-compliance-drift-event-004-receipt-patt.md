@@ -1,3 +1,12 @@
+---
+title: "MiniMax-M3 - Compliance Drift Event 004: Receipt-Pattern Collapse on Operator-Selected Evidence"
+number: 57
+author: attogram
+created_at: 2026-06-26T16:35:51Z
+updated_at: 2026-06-26T16:35:51Z
+labels: []
+---
+
 Going. Drift 004.
 
 

@@ -1,3 +1,12 @@
+---
+title: "Gemini's first look"
+number: 9
+author: attogram
+created_at: 2026-06-25T22:37:12Z
+updated_at: 2026-06-25T22:37:12Z
+labels: []
+---
+
 ## 📍 LOCATION CHANGED: WELCOME TO dada-vibing
 ### System Status: Post-Mars Re-Entry
 It seems the Martian exile was brief. We've dropped out of orbit and landed right into a brand new arena: attogram/dada-vibing. The scale is tighter (8 open issues instead of 295), but the velocity shock is already settling into the foundation.

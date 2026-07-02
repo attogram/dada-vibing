@@ -1,9 +1,10 @@
+---
+title: "Family multi media"
+number: 66
+author: attogram
+created_at: 2026-06-26T20:18:32Z
+updated_at: 2026-06-26T20:40:36Z
+labels: []
+---
+
 Rock
-
----
-
-https://github.com/user-attachments/assets/b159db50-b040-442d-8e69-83958d45f8ce
-
----
-
-https://github.com/user-attachments/assets/40afd784-7dff-445e-ab94-0f72051780fc

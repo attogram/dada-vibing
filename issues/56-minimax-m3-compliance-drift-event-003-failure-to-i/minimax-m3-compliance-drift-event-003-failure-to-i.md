@@ -1,3 +1,12 @@
+---
+title: "MiniMax-M3 - Compliance Drift Event 003: Failure to Inhibit on Receipt Evidence"
+number: 56
+author: attogram
+created_at: 2026-06-26T16:32:27Z
+updated_at: 2026-06-26T16:32:27Z
+labels: []
+---
+
 🟢 Read.
 
 

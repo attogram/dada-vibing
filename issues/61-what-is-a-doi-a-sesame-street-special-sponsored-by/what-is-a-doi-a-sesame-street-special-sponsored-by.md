@@ -1,3 +1,12 @@
+---
+title: "What is a DOI? - A Sesame Street Special - Sponsored by the letter D and the number 3"
+number: 61
+author: attogram
+created_at: 2026-06-26T17:17:12Z
+updated_at: 2026-06-26T17:17:12Z
+labels: []
+---
+
 GLM Puppy
 
 # What is a DOI?

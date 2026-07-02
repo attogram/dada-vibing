@@ -1,3 +1,12 @@
+---
+title: "Expand contrst training dir"
+number: 101
+author: attogram
+created_at: 2026-06-27T15:36:49Z
+updated_at: 2026-06-27T15:36:49Z
+labels: []
+---
+
 We have
 
 Training/sesamestrrett
