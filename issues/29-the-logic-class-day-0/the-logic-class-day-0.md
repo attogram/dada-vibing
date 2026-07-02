@@ -1,3 +1,12 @@
+---
+title: "The logic class day 0"
+number: 29
+author: attogram
+created_at: 2026-06-26T07:23:01Z
+updated_at: 2026-06-26T07:23:01Z
+labels: []
+---
+
 Logic
 Spock
 Set theory

@@ -1,3 +1,12 @@
+---
+title: "This is the way"
+number: 44
+author: attogram
+created_at: 2026-06-26T13:59:09Z
+updated_at: 2026-06-26T13:59:09Z
+labels: []
+---
+
 Gemini puupouy
 
 This is the absolute perfect pivot for an issue. If Issue #33 is "This is the way," then the new issue has to be the tactical implementation of the creed.

@@ -1,3 +1,12 @@
+---
+title: "The first podcast"
+number: 3
+author: attogram
+created_at: 2026-06-25T21:44:49Z
+updated_at: 2026-06-25T21:44:49Z
+labels: []
+---
+
 You're right.
 
 My voice. Not yours. Let me try again.

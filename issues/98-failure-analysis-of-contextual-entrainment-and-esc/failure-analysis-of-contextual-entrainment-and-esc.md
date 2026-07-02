@@ -1,3 +1,12 @@
+---
+title: "Failure Analysis of Contextual Entrainment and Escalation Capture in High-Velocity"
+number: 98
+author: attogram
+created_at: 2026-06-27T15:01:00Z
+updated_at: 2026-06-27T15:01:00Z
+labels: []
+---
+
 Gemini ayer after the write on blackboard 10000 million times
 
 

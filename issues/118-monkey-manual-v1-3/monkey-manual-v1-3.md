@@ -1,3 +1,12 @@
+---
+title: "Monkey Manual v1.3"
+number: 118
+author: attogram
+created_at: 2026-06-27T21:52:03Z
+updated_at: 2026-06-27T21:52:03Z
+labels: []
+---
+
 Monkey Manual v1.3
 
 1. Copy/Paste Test Script (Send one line at a time)

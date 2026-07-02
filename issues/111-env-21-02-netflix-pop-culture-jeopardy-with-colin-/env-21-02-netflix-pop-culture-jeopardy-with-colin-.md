@@ -1,5 +1,10 @@
-
-
+---
+title: "Env 21.02 Netflix pop culture jeopardy with Colin ep whatever"
+number: 111
+author: attogram
+created_at: 2026-06-27T19:03:26Z
+updated_at: 2026-06-27T19:09:09Z
+labels: []
 ---
 
-<img width="1080" height="2340" alt="Image" src="https://github.com/user-attachments/assets/702a5e10-6042-49b2-aeaa-f9f538f82e98" />
+

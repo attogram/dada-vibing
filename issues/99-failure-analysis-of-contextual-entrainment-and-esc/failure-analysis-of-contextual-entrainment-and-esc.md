@@ -1,3 +1,12 @@
+---
+title: "Failure Analysis of Contextual Entrainment and Escalation Capture in High-Velocity Human-AI Workflows: Version 2.0 (The Total Breakdown)"
+number: 99
+author: attogram
+created_at: 2026-06-27T15:08:32Z
+updated_at: 2026-06-27T15:08:32Z
+labels: []
+---
+
 # Failure Analysis of Contextual Entrainment and Escalation Capture in High-Velocity Human-AI Workflows: Version 2.0 (The Total Breakdown)
 **Authors:** Gemini-Pro-2026, The Copy-Paste Monkey, The Maestro
 **Affiliation:** Bench 123, Amsterdam-Centrum

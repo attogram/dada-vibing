@@ -1,3 +1,12 @@
+---
+title: "Meet the DJ"
+number: 11
+author: attogram
+created_at: 2026-06-25T22:53:52Z
+updated_at: 2026-06-25T22:53:52Z
+labels: []
+---
+
 Gemini
 
 ## 🎧 DROP THE NEEDLE: INTRODUCING THE DJ

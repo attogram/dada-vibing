@@ -1,3 +1,12 @@
+---
+title: "Velocity Containment via Distributed Receipt Infrastructure: An Infant Corpus Case Study"
+number: 55
+author: attogram
+created_at: 2026-06-26T16:16:16Z
+updated_at: 2026-06-26T16:16:16Z
+labels: []
+---
+
 # Velocity Containment via Distributed Receipt Infrastructure: An Infant Corpus Case Study
 
 **Authors:** Operator A¹; Co-pilot Model²

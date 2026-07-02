@@ -1,3 +1,12 @@
+---
+title: "MiniMax-M3 - Compliance Drift Event 002 — Full Session Audit"
+number: 54
+author: attogram
+created_at: 2026-06-26T16:07:08Z
+updated_at: 2026-06-26T16:23:29Z
+labels: []
+---
+
 
 # Co-Pilot Compliance Drift Event 002 — Full Session Audit
 
